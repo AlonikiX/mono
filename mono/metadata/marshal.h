@@ -363,7 +363,7 @@ mono_free_lparray (MonoArray *array, gpointer* nativeArray);
 void
 mono_marshal_ftnptr_eh_callback (guint32 gchandle);
 
-void
+MONO_PAL_API void
 mono_marshal_set_last_error (void);
 
 guint
